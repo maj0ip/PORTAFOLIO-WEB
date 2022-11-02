@@ -18,6 +18,7 @@ nav{
 	padding-top: 45px;
 	padding-left: 8%;
 	padding-right: 8%;
+	gap: 10px;
 }
 
 span{
@@ -296,4 +297,33 @@ footer p:nth-child(2){
 	color:#00cbf9;
 	bottom: 35px;
 	font-size: 14px; 
+}
+
+.container {
+width: 300px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: baseline;
+
+}
+
+.item1{
+    height: auto;
+	margin-top: 20px;
+	order: 0;
+
+}
+
+.item2{
+	height: auto;
+	margin-top: 20px;
+	order: 1;
+}
+
+.item3{
+	height: auto;
+	margin-top: 20px;
+	order: 2;
 }

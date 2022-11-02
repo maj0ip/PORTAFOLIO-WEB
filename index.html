@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0
+.0/">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
+.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/p
+opper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
+min.js"></script>	
+
+
 <head>
+	<div class="col-sm-6 col-xs-12">
+
 	<title>Portafolio web</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+
+	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -14,29 +30,31 @@
 
 	<div class="hero">
 		<nav>
-			<h2 class="logo">Portafolio<span> Web</span></h2>
+			<h2 class="logo"><span> Portafolio Web</span></h2>
+			<div class=".container">
 			<ul>
-				<li><A href="#primero">Habilidades</a></li>
-				<li><a href="#">Proyectos</a></li>
-				<li><a href="#">Servicios</a></li>
-				<li><A name="#contacto">Contacto</A></li>
+				<li><div class="item1"><a href="#Habilidades">¿Quién soy?</a></div></li>
+				<li><div class="item2"><a href="#Proyectos">Habilidades</a></div></li>
+				<li><div class="item3"><li><a href="#Contacto">Contacto</a></div></li>
 			</ul>
+		</div>
 		</nav>
+	
 
 		<div class="content">
 			<h4>Hola, mi nombre es</h4>
-			<h1>María José <span>Ibarra</span></h1>
+			<h1>María José <span>Ibarra Prado</span></h1>
 			<h3>Y aquí podrás encontrar más sobre mi.</h3>
 			<div class="newslatter">
 			</div>
 		</div>
 	</div>
 
-	<section class="about">
+	<section class="about" id="Habilidades">
 		<div class="main">
 			<img src="">
 			<div class="about-text">
-				<h2>¿Quién soy?</h2>
+				<h2 class="" id="#">¿Quién soy?</h2>
 				<h5>Estudiante de <span> Ingeniería en Sistemas Computacionales</span></h5>
 				<p>Sobre mi...actualmente soy estudiante del quinto semestre en la carrera de Ingeniería en Sistemas Computacionales, en el 
 					Instituto Superior de Felipe Carrillo Puerto. Mi pasión es el diseño, así que puedo decir que mi parte favorita es el Frontend. 
@@ -45,9 +63,10 @@
 		</div>
 	</section>
 
+	<section class=".box" id="Proyectos">
 	<div class="service">
 		<div class="title">
-			<h2>Mis habilidades</h2>
+			<h2 id="#">Mis habilidades</h2>
 		</div>
 
 		<div class="box">
@@ -90,22 +109,18 @@
 			</div>
 		</div>
 	</div>
+</section>
 
-
-	<!-- <div class="Proyectos">
-	<p>Proyectos en los que he trabajado.</p>
-	<a class="button-two" href="#">Hire Me</a>
-</div>  -->
-
-
+<section class="footer" id="#Contacto"> 
 	<footer>
-		<p><A href="#primero">Contacto</A></p>
+		<p><a href="#">Contacto</a></p>
 		<p>Puedes seguirme en mis redes sociales</p>
 		<div class="social">
-			<a href="#"><i class="fab fa-facebook-f"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.facebook.com/mariajose.ibarraprado.1"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/majo._ibarra/"><i class="fab fa-instagram"></i></a>
 			<a href="#"><i class="fab fa-dribbble"></i></a>
 		</div>
+	</section>
 	</footer>
 </body>
 </html>
